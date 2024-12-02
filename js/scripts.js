@@ -32,4 +32,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+// program 5 lampu
+function toggleLight(lightNumber) {
+    const light = document.getElementById(`light${lightNumber}`);
+    light.classList.toggle('on'); // Menambahkan atau menghapus kelas 'on'
+}
 
