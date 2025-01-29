@@ -11408,3 +11408,14 @@ span {
   font-size: 16px;
   cursor: pointer;
 }
+
+/*program database */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Menambahkan ini untuk menyusun teks ke kiri */
+}
